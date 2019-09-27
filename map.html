@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pagina con mapa</title>
+	<link rel="stylesheet" type="text/css" href="css/EstilosInicio.css">
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+  	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    
+</head>
+<body>
+
+	<header>
+		<input type="checkbox" id="btn-menu" >
+		<label for="btn-menu"><img src="img/MenuIcono.png"></label>
+		<nav class="menu">
+			<ul>
+				<li><a href="map.html">Inicio</a></li>
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a target="_blank" href="http://ep00.epimg.net/rss/tecnologia/portada.xml">Noticias</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="slider">
+		<ul>
+			<li><img src="img/Slide1.jpg" alt=""></li>
+			<li><img src="img/Slide2.jpg" alt=""></li>
+			<li><img src="img/Slide3.jpg" alt=""></li>
+			<li><img src="img/Slide4.jpg" alt=""></li>
+		</ul>
+		
+	</div>
+
+	<footer>
+		
+		<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>-->
+		<div style="height: 335px;width: 94%; margin: 10px; " id="map"></div>
+ 
+     
+     	<script type='text/javascript' src='js/Script.js'></script>
+
+	</footer>
+</body>
+</html>
